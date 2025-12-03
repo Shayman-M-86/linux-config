@@ -39,12 +39,14 @@ zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh)
 ## 5. Clone your Zsh dotfiles
 
 ```bash
+mkdir -p ~/.dotfiles
 git clone https://github.com/Shayman-M-86/linux-config/.dotfiles ~/.dotfiles
 ```
 
 ## 6. Symlink your Zsh config files
 
 ```bash
+
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
