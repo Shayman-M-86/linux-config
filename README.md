@@ -40,7 +40,7 @@ zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh)
 
 ```bash
 mkdir -p ~/.dotfiles
-git clone https://github.com/Shayman-M-86/linux-config/.dotfiles ~/.dotfiles
+git clone https://github.com/Shayman-M-86/linux-config ~/.dotfiles
 ```
 
 ## 6. Symlink your Zsh config files
@@ -50,3 +50,13 @@ git clone https://github.com/Shayman-M-86/linux-config/.dotfiles ~/.dotfiles
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ```
+
+## 7. Source your .zshrc file
+
+```bash
+source ~/.zshrc
+```
+
+## 8. Final Notes
+
+[Powerlevel10k](https://github.com/romkatv/powerlevel10k) requires you to source your `.zshrc` file to apply the changes.
