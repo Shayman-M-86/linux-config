@@ -60,3 +60,11 @@ source ~/.zshrc
 ## 8. Final Notes
 
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k) requires you to source your `.zshrc` file to apply the changes.
+
+## 9. Terminal Fonts
+
+Install fonts onto the terminal:
+
+[Fira Code](https://github.com/tonsky/FiraCode?tab=readme-ov-file)
+
+[font gallery](https://www.nerdfonts.com/font-downloads)
